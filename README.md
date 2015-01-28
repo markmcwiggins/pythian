@@ -3,6 +3,10 @@ A Vagrantfile and supporting cookbooks for my "homework" for a Pythian interview
 
 Notes:
 
+* The Vagrantfile as configured brings up the private network IP 10.0.0.33. If you are
+using 10.x address set for your existing private network, you'll have to change this to something
+else non-routable.
+
 * To access: http://10.0.0.33:8080/river as soon as the Vagrant installation finishes
 
 * The "stack" is minimal: web.py serving content on port 8080 after grabbing current river data from the USGS for a river crossing 20
