@@ -1,0 +1,18 @@
+name 'database'
+maintainer 'Chef Software, Inc.'
+maintainer_email 'cookbooks@chef.io'
+license 'Apache 2.0'
+description 'provides LWRPs for common database tasks'
+version '3.0.3'
+
+supports 'debian'
+supports 'ubuntu'
+supports 'centos'
+supports 'suse'
+supports 'fedora'
+supports 'redhat'
+supports 'scientific'
+supports 'amazon'
+
+depends 'postgresql', '>= 1.0.0'
+depends 'mysql2_chef_gem', '~> 1.0'
